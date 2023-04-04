@@ -1,0 +1,12 @@
+package com.example.spring.jdbc.inter;
+
+import java.util.List;
+import java.util.Map;
+
+public interface DBOperation {
+
+	public int getSalaryById(int no);
+
+	public int updateEmployeeSalaryById(int no, int newSalary);
+
+}

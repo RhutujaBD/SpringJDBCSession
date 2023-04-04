@@ -1,0 +1,10 @@
+package com.example.insertemployee.inter;
+
+import java.util.List;
+import java.util.Map;
+
+public interface DBOperation {
+	
+	public int insert(int no, String name, String job, long salary);
+	
+}
